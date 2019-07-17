@@ -1,0 +1,444 @@
+{
+    "sites": [
+        {
+            "site": "*.prod.do.dsp.mp.microsoft.com",
+            "HTTPS": "True",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "cs9.wac.phicdn.net",
+            "HTTPS": "false",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "emdl.ws.microsoft.com",
+            "HTTPS": "false",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "*.dl.delivery.mp.microsoft.com",
+            "HTTPS": "false",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "*.windowsupdate.com",
+            "HTTPS": "false",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "*.delivery.mp.microsoft.com",
+            "HTTPS": "True",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "*.update.microsoft.com",
+            "HTTPS": "True",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "tsfe.trafficshaping.dsp.mp.microsoft.com",
+            "HTTPS": "True",
+            "relation": "WindowsUpdates"
+        },
+        {
+            "site": "cy2.settings.data.microsoft.com.akadns.net",
+            "HTTPS": "True",
+            "relation": "WindowsSettings"
+        },
+        {
+            "site": "settings.data.microsoft.com",
+            "HTTPS": "True",
+            "relation": "WindowsSettings"
+        },
+        {
+            "site": "settings-win.data.microsoft.com",
+            "HTTPS": "True",
+            "relation": "WindowsSettings"
+        },
+        {
+            "site": "*.c-msedge.net",
+            "HTTPS": "False",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "*.e-msedge.net",
+            "HTTPS": "true",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "*.s-msedge.net",
+            "HTTPS": "true",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "nexusrules.officeapps.live.com",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "ocos-office365-s2s.msedge.net",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "officeclient.microsoft.com",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "outlook.office365.com",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "client-office365-tas.msedge.net",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "www.office.com",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "onecollector.cloudapp.aria",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "v10.events.data.microsoft.com",
+            "HTTPS": "false",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "self.events.data.microsoft.com",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "to-do.microsoft.com",
+            "HTTPS": "True",
+            "relation": "OfficeUpdates"
+        },
+        {
+            "site": "wdcp.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Defender"
+        },
+        {
+            "site": "definitionupdates.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Defender"
+        },
+        {
+            "site": "go.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Defender"
+        },
+        {
+            "site": "*smartscreen.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Defender"
+        },
+        {
+            "site": "smartscreen-sn3p.smartscreen.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Defender"
+        },
+        {
+            "site": "unitedstates.smartscreen-prod.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Defender"
+        },
+        {
+            "site": "*.wns.windows.com",
+            "HTTPS": "True",
+            "relation": "MSStore"
+        },
+        {
+            "site": "storecatalogrevocation.storequality.microsoft.com",
+            "HTTPS": "False",
+            "relation": "MSStore"
+        },
+        {
+            "site": "img-prod-cms-rt-microsoft-com*",
+            "HTTPS": "True",
+            "relation": "MSStore"
+        },
+        {
+            "site": "store-images.microsoft.com",
+            "HTTPS": "True",
+            "relation": "MSStore"
+        },
+        {
+            "site": "*.md.mp.microsoft.com",
+            "HTTPS": "True",
+            "relation": "MSStore"
+        },
+        {
+            "site": "*.displaycatalog.mp.microsoft.com",
+            "HTTPS": "True",
+            "relation": "MSStore"
+        },
+        {
+            "site": "pti.store.microsoft.com",
+            "HTTPS": "True",
+            "relation": "MSStore"
+        },
+        {
+            "site": "pti.store.microsoft.com",
+            "HTTPS": "False",
+            "relation": "MSStore"
+        },
+        {
+            "site": "storeedgefd.dsx.mp.microsoft.com",
+            "HTTPS": "False",
+            "relation": "MSStore"
+        },
+        {
+            "site": "markets.books.microsoft.com",
+            "HTTPS": "False",
+            "relation": "MSStore"
+        },
+        {
+            "site": "share.microsoft.com",
+            "HTTPS": "False",
+            "relation": "MSStore"
+        },
+        {
+            "site": "g.live.com",
+            "HTTPS": "False",
+            "relation": "OneDrive"
+        },
+        {
+            "site": "g.live.com",
+            "HTTPS": "True",
+            "relation": "OneDrive"
+        },
+        {
+            "site": "msagfx.live.com",
+            "HTTPS": "True",
+            "relation": "OneDrive"
+        },
+        {
+            "site": "oneclient.sfx.ms",
+            "HTTPS": "True",
+            "relation": "OneDrive"
+        },
+        {
+            "site": "login.live.com",
+            "HTTPS": "True",
+            "relation": "DeviceAuth"
+        },
+        {
+            "site": "dmd.metaservices.microsoft.com",
+            "HTTPS": "True",
+            "relation": "DeviceAuth"
+        },
+        {
+            "site": "v10.events.data.microsoft.com",
+            "HTTPS": "False",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "v10.vortex-win.data.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "www.microsoft.com",
+            "HTTPS": "False",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "co4.telecommand.telemetry.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "cs11.wpc.v0cdn.net",
+            "HTTPS": "False",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "cs1137.wpc.gammacdn.net",
+            "HTTPS": "True",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "modern.watson.data.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "watson.telemetry.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Diagnostics"
+        },
+        {
+            "site": "licensing.mp.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Licensing"
+        },
+        {
+            "site": "wd-prod-fe.cloudapp.azure.com",
+            "HTTPS": "True",
+            "relation": "Azure"
+        },
+        {
+            "site": "ris-prod-atm.trafficmanager.net",
+            "HTTPS": "True",
+            "relation": "Azure"
+        },
+        {
+            "site": "validation-v2.sls.trafficmanager.net",
+            "HTTPS": "True",
+            "relation": "Azure"
+        },
+        {
+            "site": "ctldl.windowsupdate.com",
+            "HTTPS": "False",
+            "relation": "WU"
+        },
+        {
+            "site": "inference.location.live.net",
+            "HTTPS": "True",
+            "relation": "LocationServices"
+        },
+        {
+            "site": "location-inference-westus.cloudapp.net",
+            "HTTPS": "False",
+            "relation": "LocationServices"
+        },
+        {
+            "site": "login.msa.akadns6.net",
+            "HTTPS": "False",
+            "relation": "MSA"
+        },
+        {
+            "site": "us.configsvc1.live.com.akadns.net",
+            "HTTPS": "False",
+            "relation": "MSA"
+        },
+        {
+            "site": "*.search.msn.com",
+            "HTTPS": "True",
+            "relation": "SpotLight"
+        },
+        {
+            "site": "arc.msn.com",
+            "HTTPS": "True",
+            "relation": "SpotLight"
+        },
+        {
+            "site": "g.msn.com",
+            "HTTPS": "True",
+            "relation": "SpotLight"
+        },
+        {
+            "site": "query.prod.cms.rt.microsoft.com",
+            "HTTPS": "True",
+            "relation": "SpotLight"
+        },
+        {
+            "site": "ris.api.iris.microsoft.com",
+            "HTTPS": "True",
+            "relation": "SpotLight"
+        },
+        {
+            "site": "browser.pipe.aria.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Skype"
+        },
+        {
+            "site": "config.edge.skype.com",
+            "HTTPS": "False",
+            "relation": "Skype"
+        },
+        {
+            "site": "s2s.config.skype.com",
+            "HTTPS": "False",
+            "relation": "Skype"
+        },
+        {
+            "site": "skypeecs-prod-usw-0-b.cloudapp.net",
+            "HTTPS": "True",
+            "relation": "Skype"
+        },
+        {
+            "site": "blob.weather.microsoft.com",
+            "HTTPS": "False",
+            "relation": "Weather"
+        },
+        {
+            "site": "tile-service.weather.microsoft.com",
+            "HTTPS": "False",
+            "relation": "Weather"
+        },
+        {
+            "site": "cdn.onenote.net",
+            "HTTPS": "True",
+            "relation": "Onenote"
+        },
+        {
+            "site": "twimg.com",
+            "HTTPS": "True",
+            "relation": "Twitter"
+        },
+        {
+            "site": "evoke-windowsservices-tas.msedge.net",
+            "HTTPS": "True",
+            "relation": "PhotoApp"
+        },
+        {
+            "site": "wallet.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Wallet"
+        },
+        {
+            "site": "mediaredirect.microsoft.com",
+            "HTTPS": "True",
+            "relation": "MusicApp"
+        },
+        {
+            "site": "int.whiteboard.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Whiteboard"
+        },
+        {
+            "site": "wbd.ms",
+            "HTTPS": "True",
+            "relation": "Whiteboard"
+        },
+        {
+            "site": "whiteboard.microsoft.com",
+            "HTTPS": "True",
+            "relation": "Whiteboard"
+        },
+        {
+            "site": "whiteboard.ms",
+            "HTTPS": "True",
+            "relation": "Whiteboard"
+        },
+        {
+            "site": "whiteboard.ms",
+            "HTTPS": "False",
+            "relation": "Whiteboard"
+        },
+        {
+            "site": "iecvlist.microsoft.com",
+            "HTTPS": "True",
+            "relation": "EDGE"
+        },
+        {
+            "site": "go.microsoft.com",
+            "HTTPS": "True",
+            "relation": "FWLink Addresses"
+        },
+        {
+            "site": "www.msftconnecttest.com",
+            "HTTPS": "False",
+            "relation": "NetworkConnectionTest"
+        }
+    ]
+}
