@@ -4,11 +4,17 @@ This script allows the ability to check that the ports are open, and validates t
 
 You need to have installed Pester on your computer before running the script using **Install-Module -Name Pester -Force**
 
+to set the minimum internet speed you are happy with change line 3 of the test-intunesites.ps1 file.
+
 to execute run invoke-pester .\test-intunesites.ps1 from powershell
 
-Thanks to Anoop for the list of Sites: <https://www.anoopcnair.com/windows-10-proxy-requirements-for-intune/?fbclid=IwAR3uB-2hF1pIcWzUQ9a7byzbNbiLjpj2IKZyTrqld4RvHx_Qo5PBYCPOs1Q>
+Thanks to the following people:
 
-and Chris Duck for the test-sslprotocol function: <http://blog.whatsupduck.net/2014/10/checking-ssl-and-tls-versions-with-powershell.html>
+Anoop for the list of Sites: <https://www.anoopcnair.com/windows-10-proxy-requirements-for-intune/?fbclid=IwAR3uB-2hF1pIcWzUQ9a7byzbNbiLjpj2IKZyTrqld4RvHx_Qo5PBYCPOs1Q>
+
+Chris Duck for the test-sslprotocol function: <http://blog.whatsupduck.net/2014/10/checking-ssl-and-tls-versions-with-powershell.html>
+
+velecky for the speed test function <https://www.powershellgallery.com/packages/Speedtest/2.0>
 
 * TODO: add more sites
 * TODO: Find a solution for WildCard Sites
